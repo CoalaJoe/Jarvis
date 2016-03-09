@@ -1,0 +1,2 @@
+/src/Ai/LanguageBundle/Resources/lib/java/pos/models/*.tagger filter=lfs diff=lfs merge=lfs -text
+/src/Ai/LanguageBundle/Resources/lib/java/pos/models/*.props filter=lfs diff=lfs merge=lfs -text

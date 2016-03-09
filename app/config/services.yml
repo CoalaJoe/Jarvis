@@ -1,0 +1,17 @@
+# Learn more about services, parameters and containers at
+# http://symfony.com/doc/current/book/service_container.html
+parameters:
+#    parameter_name: value
+
+services:
+#    service_name:
+#        class: AppBundle\Directory\ClassName
+#        arguments: ["@another_service_name", "plain_value", "%parameter_name%"]
+
+    language.pos.tagger:
+        class: Ai\LanguageBundle\Service\POSTagger
+        arguments: ["%python_cli%", "%kernel.root_dir%"]
+
+    command.action.extractor:
+        class: Ai\CommandBundle\Service\ActionExtractor
+

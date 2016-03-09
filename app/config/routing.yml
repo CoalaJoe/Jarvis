@@ -1,0 +1,8 @@
+ai_language:
+    resource: "@AiLanguageBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

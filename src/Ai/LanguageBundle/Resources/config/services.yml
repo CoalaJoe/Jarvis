@@ -1,0 +1,4 @@
+services:
+#    ai_language.example:
+#        class: Ai\LanguageBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]
